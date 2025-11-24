@@ -5,7 +5,7 @@ attempt = 0
 Max_attempt = 5
 
 while attempt < Max_attempt: #looks if the no. of attempts is lower than the maximum amoung
-    access = input("Enter Your 5 Digit Password: ") #Declares the "access" as a variable and inputs the 5 digit password
+    access = int(input("Enter Your 5 Digit Password: ")) #Declares the "access" as a variable and inputs the 5 digit password
     if access == password: #Checks to see if password inputed and "password" variable is the same and prints "Correct Password"
         print("Correct Password.")
         break #Ends Program

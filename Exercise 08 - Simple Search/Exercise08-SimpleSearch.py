@@ -4,7 +4,7 @@ while True: #Starts an infinite loop for asking an input for the name your looki
     print(f'Who are You Looking For?: {List_Name}') #Prints the List_Name
     Name_input = input("Enter the Name of Who Your Looking For: ").title() #Asks for the Input
 
-    if Name_input in List_Name: #Stars the if statement that if Name_input is in List_name it Prints but if not it restarts the program
+    if Name_input in List_Name: #Starts the if statement that if Name_input is in List_name it Prints but if not it restarts the program
         print(f"'{Name_input}' This Name is in the Database.")
         break  
     else:
