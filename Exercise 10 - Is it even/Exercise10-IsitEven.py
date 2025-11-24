@@ -11,5 +11,5 @@ def main(): #Function for the input and output
  answer= EvenorOdd(Number) #Calls the function to check if the number is even or odd
  print(answer) #Prints the message of the first function
 
-if __name__ == "__main__": #If statement that ensures that the main function only runs when executed
-   main()
+ 
+main() #If statement that ensures that the main function only runs when executed
